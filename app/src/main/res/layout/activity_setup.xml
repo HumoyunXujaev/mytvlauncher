@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Настройка лаунчера"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Выберите методы активации ниже:"
+        android:textColor="#BBBBBB"
+        android:textSize="18sp" /><Button
+    android:id="@+id/btnSetDefault"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:backgroundTint="#3D5AFE"
+    android:padding="16dp"
+    android:text="1. Установить по умолчанию (System)"
+    android:textColor="#FFFFFF"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:drawablePadding="8dp"
+    android:stateListAnimator="@null"
+    android:foreground="@drawable/button_hover_background" />
+
+    <Button
+        android:id="@+id/btnOpenSettings"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#00C853"
+        android:padding="16dp"
+        android:text="2. Включить перехват кнопок (Accessibility)"
+        android:textColor="#FFFFFF"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:drawablePadding="8dp"
+        android:stateListAnimator="@null"
+        android:foreground="@drawable/button_hover_background" />
+</LinearLayout>
